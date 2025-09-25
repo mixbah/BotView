@@ -10,7 +10,7 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PrepWise",
+  title: "BotView",
   description: "An AI-powered platform for preparing for mock interviews",
 };
 
@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${monaSans.className} antialiased pattern`}>
+        
         {children}
         <Toaster />
       </body>
